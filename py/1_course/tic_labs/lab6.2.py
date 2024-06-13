@@ -12,7 +12,7 @@ ent_real = 0
 r_abs = 0
 r_rel = 0
 
-with open('text.txt', encoding='utf8') as f:  # открываем текстовый файл
+with open('py/1_course/tic_labs/text.txt', encoding='utf8') as f:  # открываем текстовый файл
     text = f.readlines()
     s = ''.join(text).lower()
     s = re.sub(pattern, '', s)  # pattern = '([\W\d\s\])/([a-z])'
