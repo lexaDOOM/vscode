@@ -79,6 +79,11 @@ if __name__ == '__main__':
         main_lzw(input_file, 'py/1_course/tic_labs/output.lzw')
         decompress_file_lzw('py/1_course/tic_labs/output.lzw', 'py/1_course/tic_labs/decompressed_lzw.txt')
     
+    elif meth == 'blue':  # Easter egg
+        print("- Say my name!\n- Heisenberg!\n You're goddamn right!")
+        exit()
+        
+    
     else:  # Warning about incorrect choice
         print('Incorrect choice! Please retry!')
         exit()
