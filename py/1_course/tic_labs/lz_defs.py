@@ -5,7 +5,7 @@ class LZ77:
     def __init__(self, window_size=20):
         self.window_size = window_size
     
-    def compress_lz77(self, data):
+    def compress_lz77(self, data):  # LZ77 compression method
         i = 0
         output = []
         while i < len(data):
@@ -19,7 +19,7 @@ class LZ77:
                 i += 1
         return output
 
-    def decompress_lz77(self, compressed):
+    def decompress_lz77(self, compressed):  # LZ77 decompression method
         decompressed = []
         for item in compressed:
             (distance, length, char) = item
@@ -74,6 +74,7 @@ def decompress_file(input_file, output_file):
 
 
 class LZ78:
+    """LZ78 class with its methods"""
     def compress_lz78(self, data):
         dictionary = {}
         dictionary_size = 1
@@ -115,6 +116,7 @@ def write_decompressed_file(file_path, data):
 
 
 class LZW:
+    """LZW class with its methods"""
     def compress_lzw(self, uncompressed):
         # Build the dictionary.
         dict_size = 256
