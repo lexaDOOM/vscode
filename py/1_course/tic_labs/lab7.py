@@ -80,7 +80,7 @@ if __name__ == '__main__':
         decompress_file_lzw('py/1_course/tic_labs/output.lzw', 'py/1_course/tic_labs/decompressed_lzw.txt')
     
     elif meth == 'blue':  # Easter egg
-        print("- Say my name!\n- Heisenberg!\n You're goddamn right!")
+        print("- Say my name!\n- Heisenberg!\n- You're goddamn right!")
         exit()
         
     
