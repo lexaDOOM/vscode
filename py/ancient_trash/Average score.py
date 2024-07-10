@@ -1,5 +1,5 @@
-"""Main def of increasing mark"""
 def main (avscore, drscore, count, mark):
+    """Main def of increasing mark"""
     counter = 0 # Counter
     if (avscore > 5 or avscore < 2) or (drscore > 5 or drscore < 2):
         return 'Error: Average score and/or dream score ∉ [2; 5]'
