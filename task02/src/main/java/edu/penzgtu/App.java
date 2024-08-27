@@ -2,10 +2,6 @@ package edu.penzgtu;
 import java.util.Scanner;
 import edu.Sort;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
 
