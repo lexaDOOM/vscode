@@ -1,4 +1,6 @@
-// Shell sort
+// HeapSort
 public class Task2 {
-    // Code
+    public static void heapify(int arr[]) {
+        
+    }
 }
